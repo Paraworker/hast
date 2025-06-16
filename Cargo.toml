@@ -9,3 +9,6 @@ repository = "https://github.com/Paraworker/hast"
 description = "Thou hast come unto Wayland"
 
 [dependencies]
+rustix = { version = "1", features = ["fs"] }
+thiserror = "2"
+tokio = { version = "1", features = ["full"] }
